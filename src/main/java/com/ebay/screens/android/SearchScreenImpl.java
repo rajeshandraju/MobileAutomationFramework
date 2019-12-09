@@ -91,27 +91,9 @@ public class SearchScreenImpl implements SearchScreen {
             EBayLogger.logError(getClass().getName(), "Search for an item", "Unable to select the product");
         }       	
 	}
-	
-	/**
-     * This method is used to add an item to the cart
-     */
-	/*
-	 * @Override public void addAnItemtoCart() throws InterruptedException {
-	 * EBayLogger.info("Step - Add Item to Cart");
-	 * 
-	 * try{ WebElement addToCart_btn =
-	 * searchScreenAttributes.findElement(searchScreenAttributes.
-	 * productDetailsAddToCart); if (addToCart_btn != null) { addToCart_btn.click();
-	 * EBayLogger.info("Add item to cart success"); } else{
-	 * EBayLogger.info("Add item to cart failed"); } }catch (Exception e) {
-	 * EBayLogger.logError(getClass().getName(), "add Item to Cart",
-	 * "Unable to add item to cart"); }
-	 * 
-	 * 
-	 * }
-	 */
+		
     /**
-     * This method is used to search an item with valid product description
+     * This method is used to search an item with valid product description and add to the cart
      *
      * @param productDesc
      *            - product description will be validated
