@@ -7,7 +7,6 @@ import com.ebay.model.Product;
  */
 public interface SearchScreen {
 	public void searchAnItemAndAddtoCart(Product product)throws InterruptedException;
-	//public void addAnItemtoCart() throws InterruptedException;
 	public boolean verifyProductDescInCart(Product product) throws InterruptedException;
 	public void placeAnOrder() throws InterruptedException;
 
