@@ -34,8 +34,9 @@ public class EBayElementMethodsImpl extends EBayDriverImpl implements EBayElemen
 	}
 
 	/**
-	 * This method is used to wait for an element to be visible
+	 * This method is used to load the new page
 	 *
+	 * @param locator element to be found
 	 */
 	@Override
 	public void click(By locator) {
@@ -123,7 +124,7 @@ public class EBayElementMethodsImpl extends EBayDriverImpl implements EBayElemen
 	}
 
 	/**
-	 * Method to find an element
+	 * This method is used to find an element
 	 *
 	 * @param locator element to be found
 	 * @return WebElement if found else throws NoSuchElementException
@@ -140,7 +141,7 @@ public class EBayElementMethodsImpl extends EBayDriverImpl implements EBayElemen
 	}
 
 	/**
-	 * Method to find all the elements of specific locator
+	 * This method is used to find all the elements of specific locator
 	 *
 	 * @param locator element to be found
 	 * @return return the list of elements if found else throws
@@ -158,7 +159,7 @@ public class EBayElementMethodsImpl extends EBayDriverImpl implements EBayElemen
 	}
 
 	/**
-	 * Method to get message test of alert
+	 * This method is used to get the alert text message
 	 *
 	 * @return message text which is displayed
 	 */
@@ -173,7 +174,7 @@ public class EBayElementMethodsImpl extends EBayDriverImpl implements EBayElemen
 		}
 	}
 	/**
-	 * Method to swipe on the screen on provided coordinates
+	 * This method is used to swipe on the screen on provided coordinates
 	 *
 	* @param startX   - start X coordinate to be tapped
 	* @param endX     - end X coordinate to be tapped
@@ -195,7 +196,7 @@ public class EBayElementMethodsImpl extends EBayDriverImpl implements EBayElemen
 	}
 
 	/**
-	 * Method to scroll down on screen from java-client 6
+	 * This method is used to scroll down on screen from java-client 6
 	 *
 	 * @param swipeTimes       number of times swipe operation should work
 	 * @param durationForSwipe time duration of a swipe operation
@@ -217,7 +218,7 @@ public class EBayElementMethodsImpl extends EBayDriverImpl implements EBayElemen
 	}
 
 	/**
-	 * Method to scroll up on screen from java-client 6
+	 * This method is used to scroll up on screen from java-client 6
 	 *
 	 * @param swipeTimes       number of times swipe operation should work
 	 * @param durationForSwipe time duration of a swipe operation
